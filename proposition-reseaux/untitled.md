@@ -32,7 +32,7 @@ De plus, Traefik permet le renouvellement automatique de certificat et l'utilisa
 
 Pour sécuriser les accès au serveur, nous recommandons la mise en place d'un Firewall dans le but de limiter les accès sur certains ports. Par exemple, il peut être intéressant de limiter les accès à certains pays uniquement afin de limiter les attaques en provenance des Pays de l'Est.
 
-## Rkhunter
+### Rkhunter
 
 Nous recommandons la mise en place de cet outil sur le serveur Debian afin de protéger le serveur de différents Rootkit. Des commandes sont disponibles pour savoir si le système à été compromis, et des options permettent l'envoi de mail automatiquement si des changements sur le systèmes ont lieux.
 
